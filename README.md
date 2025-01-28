@@ -1,12 +1,16 @@
 # CPE-322: Engineering Design VI
 GitHub Repository for Design VI course
 [Syllabus Link](https://sit.instructure.com/courses/77142)
+
 ---
-# _Table of Contents_
+
+# Table of Contents
 1. [Lab Assignments](#lab-assignments)
 2. [Portfolio](#portfolio)
 3. [Useful Sources](#useful-sources)
+   
 ---
+
 # Lab Assignments
 0. [Lab 0](https://github.com/rayringston/CPE-322/edit/main/README.md) *Completed 1/27/25*
    * Create GitHub Repo for this course
@@ -21,7 +25,32 @@ GitHub Repository for Design VI course
 8. Lab 8
 9. Lab 9
 10. Lab 10
+    
 --- 
+
 # Portfolio
+**About Me**
+- Raymond Ringston
+- Computer Engineering Major
+- Junior at Stevens Institute of Technology
+
+**Current Courses**
+- CPE 322: Design VI
+- CPE 462: Introduction to Image Processing and Coding
+- CPE 345: Modeling and Simulation
+- CPE 487: Design of Digital Systems
+- IDE 399: Project Managements and Engineering Economics
+- BT 244: Microeconomics
+
+**Progamming Languages**
+- Python
+- C++
+- ARMv7
+- VHDL
+- Arduino
+- Matlab
+
 ---
-# Useful Sources
+
+# Useful Resources
+- 
