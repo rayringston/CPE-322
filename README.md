@@ -9,6 +9,7 @@ GitHub Repository for Design VI course
 0. [Lab 0](https://github.com/rayringston/CPE-322/edit/main/README.md) *1/27/25*
   - Create GitHub Repo for this course
 1. Lab 1
+  - TBD
 2. Lab 2
 3. Lab 3
 4. Lab 4
