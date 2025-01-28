@@ -50,9 +50,26 @@ GitHub Repository for CPE 322\
 - Arduino
 - Matlab
 
+```c++
+Mat invert(Mat image) {
+   Mat temp = image.clone();
+   for (int i = 0; i < image.rows; i++) {
+		for (int j = 0; j < image.cols; j++) {
+			temp.at<Vec3b>(i, j)[0] = 255 - image.at<Vec3b>(i,j)[1];
+			temp.at<Vec3b>(i, j)[1] = 255 - image.at<Vec3b>(i, j)[2];
+			temp.at<Vec3b>(i, j)[2] = 255 - image.at<Vec3b>(i, j)[0];
+		}
+   }
+   return temp;
+}
+```
+> Short sample of code written in C++ using the OpenCV2 library
+> This functions takes an image and inverts the colors
 ---
 
 # Useful Resources
 - Markdown Cheatsheet
    - ![Cheatsheet showing how to use markdown in GitHub](https://github.com/user-attachments/assets/b6136b2e-3834-42a6-bfee-01fe0089cee0)
+ 
+---
   
