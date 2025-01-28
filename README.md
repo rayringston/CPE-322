@@ -7,7 +7,7 @@ GitHub Repository for Design VI course
 # Table of Contents
 1. [Lab Assignments](#lab-assignments)
 2. [Portfolio](#portfolio)
-3. [Useful Sources](#useful-sources)
+3. [Useful Sources](#useful-resources)
    
 ---
 
@@ -53,4 +53,6 @@ GitHub Repository for Design VI course
 ---
 
 # Useful Resources
-- 
+- Markdown Cheatsheet
+   - ![Cheatsheet showing how to do various details in markdown language]()
+  
