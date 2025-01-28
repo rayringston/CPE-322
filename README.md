@@ -12,7 +12,7 @@ GitHub Repository for CPE 322\
 ---
 
 # Lab Assignments
-0. [Lab 0](https://github.com/rayringston/CPE-322/edit/main/README.md) *Completed 1/27/25*
+0. [Lab 0](https://github.com/rayringston/CPE-322/edit/main/README.md) *(Completed 1/27/25)*
    * Create GitHub Repo for this course
 1. Lab 1
    * TBD
