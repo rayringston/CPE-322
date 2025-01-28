@@ -54,22 +54,23 @@ GitHub Repository for CPE 322\
 Mat invert(Mat image) {
    Mat temp = image.clone();
    for (int i = 0; i < image.rows; i++) {
-		for (int j = 0; j < image.cols; j++) {
-			temp.at<Vec3b>(i, j)[0] = 255 - image.at<Vec3b>(i,j)[1];
-			temp.at<Vec3b>(i, j)[1] = 255 - image.at<Vec3b>(i, j)[2];
-			temp.at<Vec3b>(i, j)[2] = 255 - image.at<Vec3b>(i, j)[0];
-		}
+      for (int j = 0; j < image.cols; j++) {
+         temp.at<Vec3b>(i, j)[0] = 255 - image.at<Vec3b>(i,j)[1];
+         temp.at<Vec3b>(i, j)[1] = 255 - image.at<Vec3b>(i, j)[2];
+         temp.at<Vec3b>(i, j)[2] = 255 - image.at<Vec3b>(i, j)[0];
+     }
    }
    return temp;
 }
 ```
-> Short sample of code written in C++ using the OpenCV2 library
-> This functions takes an image and inverts the colors
+> Short sample of code written in C++ using the OpenCV2 library\
+> This function takes an image and inverts the colors
 ---
 
 # Useful Resources
 - Markdown Cheatsheet
-   - ![Cheatsheet showing how to use markdown in GitHub](https://github.com/user-attachments/assets/b6136b2e-3834-42a6-bfee-01fe0089cee0)
+   - ![Cheatsheet showing the various details in markdown](https://github.com/user-attachments/assets/53080796-c119-4275-80ef-203584271114)
+
  
 ---
   
