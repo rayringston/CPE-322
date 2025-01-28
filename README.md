@@ -55,9 +55,9 @@ Mat invert(Mat image) {
    Mat temp = image.clone();
    for (int i = 0; i < image.rows; i++) {
       for (int j = 0; j < image.cols; j++) {
-         temp.at<Vec3b>(i, j)[0] = 255 - image.at<Vec3b>(i,j)[1];
-         temp.at<Vec3b>(i, j)[1] = 255 - image.at<Vec3b>(i, j)[2];
-         temp.at<Vec3b>(i, j)[2] = 255 - image.at<Vec3b>(i, j)[0];
+         temp.at<Vec3b>(i, j)[0] = 255 - image.at<Vec3b>(i,j)[0];
+         temp.at<Vec3b>(i, j)[1] = 255 - image.at<Vec3b>(i, j)[1];
+         temp.at<Vec3b>(i, j)[2] = 255 - image.at<Vec3b>(i, j)[2];
      }
    }
    return temp;
