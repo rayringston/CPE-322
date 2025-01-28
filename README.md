@@ -55,6 +55,4 @@ GitHub Repository for CPE 322\
 # Useful Resources
 - Markdown Cheatsheet
    - ![Cheatsheet showing how to use markdown in GitHub](https://github.com/user-attachments/assets/b6136b2e-3834-42a6-bfee-01fe0089cee0)
-
-)
   
