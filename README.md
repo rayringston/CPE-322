@@ -1,5 +1,5 @@
-# CPE-322: Engineering Design VI
-GitHub Repository for Design VI course
+# CPE 322: Engineering Design VI
+GitHub Repository for CPE 322\
 [Syllabus Link](https://sit.instructure.com/courses/77142)
 
 ---
@@ -7,7 +7,7 @@ GitHub Repository for Design VI course
 # Table of Contents
 1. [Lab Assignments](#lab-assignments)
 2. [Portfolio](#portfolio)
-3. [Useful Sources](#useful-resources)
+3. [Useful Resources](#useful-resources)
    
 ---
 
