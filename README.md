@@ -1,6 +1,6 @@
 # CPE 322: Engineering Design VI
 GitHub Repository for CPE 322\
-[Syllabus Link](https://sit.instructure.com/courses/77142)
+[Syllabus Link](https://sit.instructure.com/courses/77142)\
 [Group Website](https://sites.google.com/stevens.edu/cpe322-group/home)
 
 ---
