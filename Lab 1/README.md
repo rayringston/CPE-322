@@ -16,4 +16,4 @@ ghdl -e mux_tb
 ghdl -r mux_tb --vcd=mux.vcd
 gtkwave mux.vcd
 ```
-![4to1 mux gtkwave output](https://github.com/user-attachments/assets/3d7e042b-0711-4127-8a52-9ed36eccc103
+![4to1 mux gtkwave output](https://github.com/user-attachments/assets/3d7e042b-0711-4127-8a52-9ed36eccc103)
