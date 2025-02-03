@@ -17,3 +17,7 @@ ghdl -r mux_tb --vcd=mux.vcd
 gtkwave mux.vcd
 ```
 ![4to1 mux gtkwave output](https://github.com/user-attachments/assets/3d7e042b-0711-4127-8a52-9ed36eccc103)
+
+# Notes
+- Must install GHDL and GTKWave to generate waveforms
+- Source files can found on (Professor Lu's Repository)[https://github.com/kevinwlu/dsd/tree/master/ghdl}
