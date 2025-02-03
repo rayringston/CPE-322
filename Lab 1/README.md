@@ -1,5 +1,5 @@
 # Half Adder Example
-```bash
+```console
 ghdl -a ha.vhdl
 ghdl -a ha_tb.vhdl
 ghdl -e ha_tb
@@ -9,7 +9,7 @@ gtkwave ha.vcd
 ![ha gtkwave output](https://github.com/user-attachments/assets/20ea8983-742f-4d31-a207-0e57efaaced0)
 
 # 4-to-1 Multiplexer Example
-```bash
+```console
 ghdl -a mux.vhdl
 ghdl -a mux_tb.vhdl
 ghdl -e mux_tb
