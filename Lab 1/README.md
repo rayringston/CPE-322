@@ -20,4 +20,4 @@ gtkwave mux.vcd
 
 # Notes
 - Must install GHDL and GTKWave to generate waveforms
-- Source files can found on (Professor Lu's Repository)[https://github.com/kevinwlu/dsd/tree/master/ghdl}
+- Source files can found on [Professor Lu's Repository][https://github.com/kevinwlu/dsd/tree/master/ghdl}
