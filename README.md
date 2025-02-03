@@ -15,7 +15,7 @@ GitHub Repository for CPE 322\
 # Lab Assignments
 0. [Lab 0](https://github.com/rayringston/CPE-322/edit/main/README.md) *(Completed 1/27/2025)*
    * Create GitHub Repo for this course
-1. [Lab 1](Lab%1/lab1.md) *(Completed 2/3/2025)*
+1. [Lab 1](Lab 1/lab1.md) *(Completed 2/3/2025)*
    * Use GHDL and GTKWave to create output waveforms of the example files
    * Tested the Half Adder file and the 4 to 1 Multiplexer
 2. Lab 2
