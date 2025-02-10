@@ -50,7 +50,7 @@ GitHub Repository for CPE 322\
 - ARMv7
 - VHDL
 - Arduino
-- Matlab
+- MATLAB
 
 ```c++
 Mat invert(Mat image) {
