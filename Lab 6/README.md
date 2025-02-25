@@ -4,7 +4,7 @@
 This lab implements the use of Node.js to create web server that react to changes on the client side. It also uses Pystache to interpret and render Mustache templates, allowing an easy way to generate text from input data.
 
 ## Installing Node.js
-To intstall node.js for Windows, I downloaded it directly from the [Node JS website](https://nodejs.org/en/download/). The following commands show the current version of Node and npm, the package manager for node. Since the versions are displayed, Node was installed properly. The final command prints a list of options for Node, which I cut out for the sake of readability.
+To intstall node.js for Windows, I downloaded it directly from the [Node JS website](https://nodejs.org/en/download/). The following commands show the current version of Node and npm, the package manager for Node. Since the versions are displayed, Node was installed properly. The final command prints a list of options for Node, which I cut out for the sake of readability.
 
 ![node versions](https://github.com/user-attachments/assets/7abbe566-bf9e-4985-9661-821a964627b5)
 
