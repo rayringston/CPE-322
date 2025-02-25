@@ -20,19 +20,28 @@ The ps command stands for "process status", and displays information regarding t
 - UID: User ID of the user who started the process
 - STIME: Start Time
 - COMMAND: The actual name of the process
+  
 ![ps output](https://github.com/user-attachments/assets/75b02310-44a1-4505-a0a4-e84dc10aaf26)
 
 ## pwd
 PWD simply prints the directory that you are currently in
-![pwd output](https://github.com/user-attachments/assets/ffc4555c-8521-4e34-8a33-bfa44d713625)
+
+![pwd output](https://github.com/user-attachments/assets/899a2606-b2e0-47e5-947e-8d9b18795b65)
+
 
 ## git clone
 This command allows you to create a copy of a GitHub repository from another location. In this example, I created a copy of [Professor Lu's IoT repository](https://github.com/kevinwlu/iot.git).
+
 ![git clone output](https://github.com/user-attachments/assets/fe202e3e-b18b-431d-9d7c-590326f213f1)
 
 ## cd iot
+The cd command stands for "change directory", which allows you to move between directories. The image below shows my directory change from ~ to ~/iot
+
+![image](https://github.com/user-attachments/assets/9b764752-da9a-43a2-b162-e3d5f5531ee1)
 
 ## ls
+This command prints the contents of the current directory, including the 
+
 ![ls output](https://github.com/user-attachments/assets/82cf5275-60a5-454f-bfea-c13c8a50e3ca)
 
 ## cd
