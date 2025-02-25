@@ -1,5 +1,8 @@
 # Lab 3 - Python
 
+## Overview
+The purpose of this lab is to show the capabilities of various Python packages. 
+
 ## Required Python Packages
 - [jdcal](https://pypi.org/project/jdcal/)
   - This package is used for converting between Gregorian and Julian calendar dates
@@ -11,6 +14,16 @@
   - Calcuates conversions between time zones
 - [psutil](https://pypi.org/project/psutil/)
   - Provides information regarding running processes, as well as system utilization statistics
+
+## Setup
+Before running the provided examples, you must first enter the correct directory. These lines change directory to the IoT directory, and then to the lesson3 directory. Sytnax for running the example scripts can be found at the bottom, using the approriate file names and inputs.
+```console
+cd ~\iot
+cd *3
+
+python3 julian.py
+```
+Documentation for installing the necessary GitHub repository can be found in [Lab 2](Lab%202\README.md)
 
 ## julian.py
 This program converts the current date, which uses the Gregorian calendar, into dates using the Julian and Modified Julian calendars
