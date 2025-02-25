@@ -40,22 +40,48 @@ The cd command stands for "change directory", which allows you to move between d
 ![image](https://github.com/user-attachments/assets/9b764752-da9a-43a2-b162-e3d5f5531ee1)
 
 ## ls
-This command prints the contents of the current directory, including the 
+This command prints the contents of the current directory
 
 ![ls output](https://github.com/user-attachments/assets/82cf5275-60a5-454f-bfea-c13c8a50e3ca)
 
 ## cd
+If a specific directory is not including while using cd, it returns the user to their home directory. This image shows my working directory changing from ~/iot back to ~.
+
+![image](https://github.com/user-attachments/assets/0a8d69d9-3487-4fcc-84f5-c656396682d7)
 
 ## df
+df stands for "disk free", and displays information on all of the connected file systems. It shows information like the system name, used space, and available space.
+
 ![df output](https://github.com/user-attachments/assets/9bc35a0a-034c-42cf-a68e-5f310c1cd22f)
 
 ## mkdir demo
+mkdir create a new directory in your current working directory, in this example called demo.
+
+![mkdir demo output](https://github.com/user-attachments/assets/978a6da4-0db5-4829-acbc-0ad45c22e2ff)
 
 ## cd demo
+This moves me into the new demo directory
+
+![cd demo output](https://github.com/user-attachments/assets/0c3e5eba-c304-4561-8146-c56f09fc5204)
+
 
 ## nano file
+nano allows the user to create and edit text file from the terminal. This created a file named "file", that I wrote text into.
+
+![nano file](https://github.com/user-attachments/assets/5852e45e-eee3-40e6-b17c-9f616167b659)
 
 ## cat file
+The cat command prints the contents of its input files. The text I wrote during the nano command is now printed back to the screen, and can be seen below.
+
 ![cat file output](https://github.com/user-attachments/assets/f95b0bc6-dea7-411d-b17a-169c098f9b38)
 
 ## cp file file1
+cp is short for copy, and creates a duplicate of a file. This created a copy of file names file1.
+
+![cp proof](https://github.com/user-attachments/assets/2193572a-e711-47be-92bb-e61b5d732d5c)
+
+## mv file file2
+mv is short for move, and is used for moving or renaming files. Since the command didn't provide a new directory, it remained in the same location but changed names from file to file2
+
+![mv proof](https://github.com/user-attachments/assets/9f30cbe1-024a-458d-9103-e71d5893ad99)
+
