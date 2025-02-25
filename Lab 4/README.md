@@ -8,7 +8,7 @@ First I created the project called stevens, using the lines below.
 ![project start](https://github.com/user-attachments/assets/b8e2ea14-2bd5-413e-904a-ad4790c71e56)
 
 ## Starting Django App
-Next I create an app called my app in the same directory.
+Next I create an app called myapp in the same directory.
 ![app start](https://github.com/user-attachments/assets/328224a7-fb27-4be9-a21d-eab07bf9c519)
 
 ## Setting up SQLite Database
@@ -39,15 +39,19 @@ Similarly I created the necessary directories and copyed the index.html files us
 First I had to create an account on the Google Maps Platform to generate an API key. Without this, it wouldnt be possible to use the Google Maps API. After creating the key, I used ```nano index.html``` and edited the API key parameter.
 
 ## Copying Static Files
+In order to properly display the website, I copied the rest of the remaining files.
 ![copying static files](https://github.com/user-attachments/assets/1aea94fd-7d73-47c1-a5df-1fb60a7b54c0)
 
 ## Creating Django Superuser
+In order to become an admin on the server that I am running, I need to establish myself as a superuser. Initially the line, ```python3 manage.py createsuperuser``` did not work, but this was fixed by using ```winpty python3 manage.py createsuperuser```. Then I entered my credentials and created an account.
 ![creating superuser](https://github.com/user-attachments/assets/76a2ff53-4502-4739-8760-7aac229d960c)
 
 ## Run Django Server
+Now that everything has been setup, I ran the server using ```python3 manage.py runserver```. I opened the app as an admin by going to http://127.0.0.1:8000/admin. From there, I entered the necessary data, including the date and time, temperature, and location.
 ![Running server](https://github.com/user-attachments/assets/52075b4d-c427-44a7-adfa-1730a1807e26)
 
-## 
+## Client View
+To see this from the client side, I went to http://127.0.0.1:8000, and you can the data that I entered being displayed.
 ![Client Side](https://github.com/user-attachments/assets/3d25a79d-6011-4727-8ecb-9f82490efb24)
 
 
