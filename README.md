@@ -24,9 +24,9 @@ GitHub Repository for CPE 322\
    * Installed various Python packages and ran example scripts to see their capabilities
 4. [Lab 4](Lab%204/README.md) *(Completed 2/25/2025)*
    * Used Django, Django REST, and Flask in Pyhton to host Wepages
-5. Lab 5
-6. Lab 6
-7. Lab 7
+5. [Lab 5](Lab%205/README.md) *(Completed 2/25/2025)*
+6. [Lab 6](Lab%206/README.md) *(Completed 2/25/2025)*
+7. [Lab 7](Lab%207/README.md) *(Completed 2/25/2025)*
 8. Lab 8
 9. Lab 9
 10. Lab 10
