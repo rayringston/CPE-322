@@ -3,7 +3,14 @@
 ## Overview
 This lab contained three sections: running the Django project, running the Django REST project, and running the flask server. These tasks teach you how to setup and run projects using the Django package, use API keys to include API services within a project, and run servers using the Flask package.
 
-## Installations
+## Table of Contents
+1. [Required Installations](#required-installations)
+2. [Django Project Stevens](#django-project---stevens)
+3. [Djange REST Project - MyCPU](#django-rest-project---mycpu)
+4. [Flask Server](#flask-server)
+---
+
+# Required Installations
 The following commands can be used to install the necessary packages to run the Django and Django REST projects, as well as Flask to run the Flask server.
 ```console
 pip install -U setuptools
@@ -15,10 +22,6 @@ pip install -U requests
 pip install -U flask
 ```
 
-## Table of Contents
-1. [Django Project Stevens](#django-project---stevens)
-2. [Djange REST Project - MyCPU](#django-rest-project---mycpu)
-3. [Flask Server](#flask-server)
 ---
 # Django Project - Stevens
 ## Starting Django Project
