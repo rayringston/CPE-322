@@ -1,7 +1,19 @@
 # Lab 4 - Django and Flask
 
+## Overview
+This lab contained three sections: running the Django project, running the Django REST project, and running the flask server. These tasks teach you how to setup and run projects using the Django package, use API keys to include API services within a project, and run servers using the Flask package.
+
 ## Installations
-- add that stuff
+The following commands can be used to install the necessary packages to run the Django and Django REST projects, as well as Flask to run the Flask server.
+```console
+pip install -U setuptools
+pip install -U django
+pip install -U djangorestframework
+pip install -U django-filter
+pip install -U markdown
+pip install -U requests
+pip install -U flask
+```
 
 ## Table of Contents
 1. [Django Project Stevens](#django-project---stevens)
@@ -136,4 +148,16 @@ When viewing the site at 127.0.0.1:8000/home, you can see the location I entered
 ---
 # Flask Server
 ## Installing Flask
+Since I did not have Flask installed, I used ```pip install flask``` to install the package.
 
+![installing flask](https://github.com/user-attachments/assets/3a9a4345-8471-4d93-8693-bcbfbf24da15)
+
+## Running Flask Server
+To run the server, I simply changed directories and ran the hello_world.py file. To view the site, I went to http://127.0.0.1:500, which can be seen below.
+
+![running server](https://github.com/user-attachments/assets/d5db4a13-6a65-4fa2-bf26-b26a58c1402c)
+
+![client side](https://github.com/user-attachments/assets/56451a6b-2e29-4efc-80a9-e13fe95f6673)
+
+---
+I pledge my Honor that I have abided by the Stevens Honor System - _Ray Ringston_
