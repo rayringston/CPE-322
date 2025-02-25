@@ -51,7 +51,15 @@ Now that everything has been setup, I ran the server using ```python3 manage.py 
 ![Running server](https://github.com/user-attachments/assets/52075b4d-c427-44a7-adfa-1730a1807e26)
 
 ## Client View
-To see this from the client side, I went to http://127.0.0.1:8000, and you can the data that I entered being displayed.
+To see this from the client side, I went to http://127.0.0.1:8000, and you can see the data that I entered being displayed.
 ![Client Side](https://github.com/user-attachments/assets/3d25a79d-6011-4727-8ecb-9f82490efb24)
+
+# Starting Django REST Project
+Similarly to before, I created a Django project called mycpu.
+
+![starting mycpu](https://github.com/user-attachments/assets/7505fa2d-d52b-4103-9107-f5b622fefc82)
+
+## Starting Django App
+![Starting app](https://github.com/user-attachments/assets/aaf028de-f9ed-49d6-9838-41ab62668dde)
 
 
