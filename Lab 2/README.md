@@ -1,4 +1,6 @@
 # Lab 2 - Command Line
+## Overview
+This purpose lab was to gain farmiliarty with certain Linux terminal commands. Since Raspberry Pi OS is based on Debian, a Linux distribution, these commands are necessary for working with a Raspberry Pi. I used Git Bash to emulate a Linux enviorment to perform these commands.
 
 ## hostname
 The hostname command displays the name assigned to the computer on the network. Instead of displaying the IP address, it shows a more readable "nickname" for the device.
@@ -125,3 +127,5 @@ The netstat command show information like, the type of protocol, IP address, and
 ![netstat 2/3](https://github.com/user-attachments/assets/e45a19bb-4985-48a6-b299-7fa64298fda5)
 ![netstat 3/3](https://github.com/user-attachments/assets/a6083064-3acf-442b-a239-ac1df8dbbf7d)
 
+---
+I pledge my Honor that I have abided by the Stevens Honor System - _Ray Ringston_
