@@ -19,8 +19,11 @@ GitHub Repository for CPE 322\
    * Use GHDL and GTKWave to create output waveforms of the example files
    * Tested the Half Adder file and the 4 to 1 Multiplexer
 2. [Lab 2](Lab%202/README.md) *(Completed 2/24/2025)*
+   * Tested the functions of various terminal commands
 3. [Lab 3](Lab%203/README.md) *(Completed 2/25/2025)*
-4. Lab 4
+   * Installed various Python packages and ran example scripts to see their capabilities
+4. [Lab 4](Lab%204/README.md) *(Completed 2/25/2025)*
+   * Used Django, Django REST, and Flask in Pyhton to host Wepages
 5. Lab 5
 6. Lab 6
 7. Lab 7
