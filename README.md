@@ -25,8 +25,12 @@ GitHub Repository for CPE 322\
 4. [Lab 4](Lab%204/README.md) *(Completed 2/25/2025)*
    * Used Django, Django REST, and Flask in Pyhton to host Wepages
 5. [Lab 5](Lab%205/README.md) *(Completed 2/25/2025)*
+   * Used Mosquitto and Paho-MQTT to transfer messages over a network
 6. [Lab 6](Lab%206/README.md) *(Completed 2/25/2025)*
+   * Used Node.js to run a webpage that reacts to changes on the client side
+   * Also used Pystache to create templates to parse and render input data
 7. [Lab 7](Lab%207/README.md) *(Completed 2/25/2025)*
+   * Implemented ThingSpeak and Google APIs to continuously log and monitor data over the internet
 8. Lab 8
 9. Lab 9
 10. Lab 10
