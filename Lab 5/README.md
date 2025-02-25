@@ -1,7 +1,10 @@
 # Lab 5 - Paho-MQT
 
+## Overview
+The purpose of this lab is to farmiliarize us with two implementations of MQTT, used for transmitting messages over a network. In this lab we use both Mosquitto and 
+
 ## Installing Mosquitto
-Since my computer is running Windows, I downloaded Mosquitto from the [official website](https://mosquitto.org/download/)
+Since my computer is running Windows, I downloaded Mosquitto from the [official website](https://mosquitto.org/download/). Before performing any of the tasks, I used the command ```git pull``` while in the IoT directory to ensure the files I was using were the most recent
 
 ## Testing Mosquitto
 On one terminal, I established a subscriber by using the command ```mosquito_sub -h localhost -v -t test/topic```. On another separate terminal I publish a message uusing ```mosquitto_pub -h localhost -t test/topic -m "hello"```. As seen in the image below, the terminal that is the subscriber display the message sent from the publisher.
