@@ -23,7 +23,14 @@ cd *3
 
 python3 julian.py
 ```
-Documentation for installing the necessary GitHub repository can be found in [Lab 2](Lab%202/README.md)
+Documentation for installing the necessary GitHub repository can be found in [Lab 2](Lab%202/README.md). Similarly, instructions for installing the necessary packages can be found below.
+```console
+pip install jdcal
+pip install astral
+pip install geopy
+pip install pytz
+pip install psutil
+```
 
 ## julian.py
 This program converts the current date, which uses the Gregorian calendar, into dates using the Julian and Modified Julian calendars
