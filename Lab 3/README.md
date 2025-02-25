@@ -1,7 +1,7 @@
 # Lab 3 - Python
 
 ## Overview
-The purpose of this lab is to show the capabilities of various Python packages. 
+The purpose of this lab is to show the capabilities of various Python packages. Python packages are used to essentially outsource parts of your program. Instead of creating a program to calculate the time of sunset in various locations, a package like Astral may be used instead.
 
 ## Required Python Packages
 - [jdcal](https://pypi.org/project/jdcal/)
@@ -23,7 +23,7 @@ cd *3
 
 python3 julian.py
 ```
-Documentation for installing the necessary GitHub repository can be found in [Lab 2](Lab%202\README.md)
+Documentation for installing the necessary GitHub repository can be found in [Lab 2](Lab%202/README.md)
 
 ## julian.py
 This program converts the current date, which uses the Gregorian calendar, into dates using the Julian and Modified Julian calendars
