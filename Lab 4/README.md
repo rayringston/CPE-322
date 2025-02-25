@@ -4,9 +4,9 @@
 - add that stuff
 
 ## Table of Contents
-1. [Django Project Stevens](django-project---stevens)
-2. [Djange REST Project - MyCPU](django-rest-project---mycpu)
-3. [Flask Server](flask-server)
+1. [Django Project Stevens](#django-project---stevens)
+2. [Djange REST Project - MyCPU](#django-rest-project---mycpu)
+3. [Flask Server](#flask-server)
 ---
 # Django Project - Stevens
 ## Starting Django Project
@@ -67,7 +67,7 @@ To see this from the client side, I went to http://127.0.0.1:8000, and you can s
 
 ---
 
-#Django REST Project - MyCPU
+# Django REST Project - MyCPU
 ## Starting Django REST Project
 Similarly to before, I created a Django project called mycpu.
 
