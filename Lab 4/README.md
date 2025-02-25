@@ -5,7 +5,7 @@ This lab contained three sections: running the Django project, running the Djang
 
 ## Table of Contents
 1. [Required Installations](#required-installations)
-2. [Django Project Stevens](#django-project---stevens)
+2. [Django Project - Stevens](#django-project---stevens)
 3. [Djange REST Project - MyCPU](#django-rest-project---mycpu)
 4. [Flask Server](#flask-server)
 ---
