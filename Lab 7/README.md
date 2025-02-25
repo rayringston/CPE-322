@@ -8,10 +8,19 @@ First, I copied the neccessary files, thingspeak_cpu_loop.py and thingspeak_feed
 
 Before running the files I used ```cat thingspeak_cpu_loop.py thingspeak_feed.py``` to inspect them, which can be seen below. The files seem very similar, however, thingspeak_feed.py contains more code dealing with the use of the API key. Both programs measure the CPU utilzation and the available memory and upload them to the API fields every minute.
 
-![cpu_loop cat](https://github.com/user-attachments/assets/98e167cc-6978-40d4-8864-3247e8de90e0)
+![cpu_loop cat](https://github.com/user-attachments/assets/98e167cc-6978-40d4-8864-3247e8de90e0)\
 ![image](https://github.com/user-attachments/assets/c49d02eb-8590-4b76-bc6c-4bad6181900a)
 
 To run thingspeak_feed.py I used ```python3 thingspeak_feed.py```, which outputted the measurements every 60 seconds. Note: The API Key seen in the screenshot is no longer being used, I changed it after taking this screenshot. The statistics are then displayed in the ThingSpeak channel and can be seen below.
 
-![program output](https://github.com/user-attachments/assets/3fa46adb-1e68-4a66-beb1-cb5e5fcea880)
+![program output](https://github.com/user-attachments/assets/3fa46adb-1e68-4a66-beb1-cb5e5fcea880)\
 ![channel stats](https://github.com/user-attachments/assets/139ca5dd-7148-43cd-9558-1bcc2cc68200)
+
+## Google Sheets
+First, I created a new project called cpudata on the [Google Cloud Platform IAM](https://console.cloud.google.com/projectselector2/iam-admin/iam). I enabled the Google Drive and Google Sheets API for this project. 
+
+Next, I installed the necessary Python packages using ```pip install -U gspread oauth2user```
+
+![package installs](https://github.com/user-attachments/assets/b444d590-dabd-43d5-ad82-9e1f8c346003)
+
+
