@@ -18,8 +18,8 @@ GitHub Repository for CPE 322\
 1. [Lab 1](Lab%201/lab1.md) *(Completed 2/3/2025)*
    * Use GHDL and GTKWave to create output waveforms of the example files
    * Tested the Half Adder file and the 4 to 1 Multiplexer
-2. Lab 2
-3. Lab 3
+2. [Lab 2](Lab%202/README.md) *(Completed 2/24/2025)*
+3. [Lab 3](Lab%203/README.md) *(Completed 2/25/2025)*
 4. Lab 4
 5. Lab 5
 6. Lab 6
