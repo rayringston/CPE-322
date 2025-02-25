@@ -1,13 +1,19 @@
 # Lab 3 - Python
 
-# required packages
-- jdcal
-- astral
-- geopy
-- pytz
-- psutil
+## Required Python Packages
+- [jdcal](https://pypi.org/project/jdcal/)
+  - This package is used for converting between Gregorian and Julian calendar dates
+- [astral](https://pypi.org/project/astral/)
+  - Astral provides calucations for various astrological properties: moon phase, sunrise and sunset times, solar elevation, etc.
+- [geopy](https://geopy.readthedocs.io/en/stable/)
+  - Provides APIs for various gelocation services, like Google Maps
+- [pytz](https://pypi.org/project/pytz/)
+  - Calcuates conversions between time zones
+- [psutil](https://pypi.org/project/psutil/)
+  - Provides information regarding running processes, as well as system utilization statistics
 
 ## julian.py
+
 
 ![julian.py output](https://github.com/user-attachments/assets/79b246dd-33ac-44ff-bb50-7d751e3367eb)
 
