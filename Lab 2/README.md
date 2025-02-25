@@ -96,7 +96,32 @@ clear removes all previous commands from the screen
 ![clear output](https://github.com/user-attachments/assets/f6f5b14c-ea18-40ee-b162-c3eb14e4d9e7)
 
 ## man uname
-man is short for manual, and provides detailed information regarding the commands. In order to use this command, you must install the manual database first. Alternatively, I used the command ```bash uname --help``` to learn about the uname command.
+man is short for manual, and provides detailed information regarding the commands. In order to use this command, you must install the manual database first. Alternatively, I used the command 
+```console
+uname --help
+```
+to learn about the uname command.
 
 ![uname --help output](https://github.com/user-attachments/assets/717ffb87-d5f6-427a-bf27-df7342acfbeb)
+
+## uname -a
+The uname command prints the system information, and the -a option prints all available information
+
+![uname output](https://github.com/user-attachments/assets/ed41f554-5875-4b64-b1d7-c20fa0a96af0)
+
+## ifconfig
+The ifconfig command is used for configuring and showing details about the network interfaces. However, ifconfig is used for Unix-based systems, like macOS and Linux, so I had to use ipconfig which is used for Windows.
+
+![ipconfig output](https://github.com/user-attachments/assets/e81015d1-121b-4eb4-a8b7-cb5f31fc38af)
+
+## ping localhost
+The ping command allows you to send test packets to test if a network connection is working properly. Since it is being sent to localhost, the packest are sent back to my computer, and I can test the performace of my own device
+
+![ping localhost](https://github.com/user-attachments/assets/5d2298eb-c03a-48f0-abdb-de530e20e86f)
+
+## netstat
+The netstat command show information like, the type of protocol, IP address, and state, of all of the current network connections.
+![netstat 1/3](https://github.com/user-attachments/assets/6176c684-f870-4551-a32f-f6d9ba381cae)
+![netstat 2/3](https://github.com/user-attachments/assets/e45a19bb-4985-48a6-b299-7fa64298fda5)
+![netstat 3/3](https://github.com/user-attachments/assets/a6083064-3acf-442b-a239-ac1df8dbbf7d)
 
