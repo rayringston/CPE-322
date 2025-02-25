@@ -1,7 +1,7 @@
-# Lab 5 - Paho-MQT
+# Lab 5 - Paho-MQTT
 
 ## Overview
-The purpose of this lab is to farmiliarize us with two implementations of MQTT, used for transmitting messages over a network. In this lab we use both Mosquitto and 
+The purpose of this lab is to farmiliarize us with two implementations of MQTT, used for transmitting messages over a network. In this lab we use both Mosquitto and Paho-MQTT to send messages between terminals.
 
 ## Installing Mosquitto
 Since my computer is running Windows, I downloaded Mosquitto from the [official website](https://mosquitto.org/download/). Before performing any of the tasks, I used the command ```git pull``` while in the IoT directory to ensure the files I was using were the most recent
