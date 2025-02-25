@@ -85,3 +85,18 @@ mv is short for move, and is used for moving or renaming files. Since the comman
 
 ![mv proof](https://github.com/user-attachments/assets/9f30cbe1-024a-458d-9103-e71d5893ad99)
 
+## rm file2
+rm is short for remove, and is uesd for deleting files and directories. As seen below, file2 has been deleted
+
+![rm proof](https://github.com/user-attachments/assets/629fb099-f3ec-4e57-9c28-fc660fb45804)
+
+## clear
+clear removes all previous commands from the screen
+
+![clear output](https://github.com/user-attachments/assets/f6f5b14c-ea18-40ee-b162-c3eb14e4d9e7)
+
+## man uname
+man is short for manual, and provides detailed information regarding the commands. In order to use this command, you must install the manual database first. Alternatively, I used the command ```bash uname --help``` to learn about the uname command.
+
+![uname --help output](https://github.com/user-attachments/assets/717ffb87-d5f6-427a-bf27-df7342acfbeb)
+
