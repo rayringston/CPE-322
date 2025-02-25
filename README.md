@@ -13,23 +13,23 @@ GitHub Repository for CPE 322\
 ---
 
 # Lab Assignments
-0. [Lab 0](https://github.com/rayringston/CPE-322/edit/main/README.md) *(Completed 1/27/2025)*
+0. [Lab 0 - Create GitHub Repository](https://github.com/rayringston/CPE-322/edit/main/README.md) *(Completed 1/27/2025)*
    * Create GitHub Repo for this course
-1. [Lab 1](Lab%201/lab1.md) *(Completed 2/3/2025)*
+1. [Lab 1 - GHDL and GTKWave](Lab%201/lab1.md) *(Completed 2/3/2025)*
    * Use GHDL and GTKWave to create output waveforms of the example files
    * Tested the Half Adder file and the 4 to 1 Multiplexer
-2. [Lab 2](Lab%202/README.md) *(Completed 2/24/2025)*
+2. [Lab 2 - Command Line](Lab%202/README.md) *(Completed 2/24/2025)*
    * Tested the functions of various terminal commands
-3. [Lab 3](Lab%203/README.md) *(Completed 2/25/2025)*
+3. [Lab 3 - Python](Lab%203/README.md) *(Completed 2/25/2025)*
    * Installed various Python packages and ran example scripts to see their capabilities
-4. [Lab 4](Lab%204/README.md) *(Completed 2/25/2025)*
+4. [Lab 4 - Django and Flask](Lab%204/README.md) *(Completed 2/25/2025)*
    * Used Django, Django REST, and Flask in Pyhton to host Wepages
-5. [Lab 5](Lab%205/README.md) *(Completed 2/25/2025)*
+5. [Lab 5 - Paho-MQTT](Lab%205/README.md) *(Completed 2/25/2025)*
    * Used Mosquitto and Paho-MQTT to transfer messages over a network
-6. [Lab 6](Lab%206/README.md) *(Completed 2/25/2025)*
+6. [Lab 6 - Node.js and Pystache](Lab%206/README.md) *(Completed 2/25/2025)*
    * Used Node.js to run a webpage that reacts to changes on the client side
    * Also used Pystache to create templates to parse and render input data
-7. [Lab 7](Lab%207/README.md) *(Completed 2/25/2025)*
+7. [Lab 7 - ThingSpeak and Google Sheets](Lab%207/README.md) *(Completed 2/25/2025)*
    * Implemented ThingSpeak and Google APIs to continuously log and monitor data over the internet
 8. [Lab 8](Lab%208/README.md)
 9. [Lab 9](Lab%209/README.md)
