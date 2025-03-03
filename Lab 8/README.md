@@ -54,5 +54,7 @@ As an experiment, I modified plt_cv2.py to print the R sqaured value of the data
 
 ![plt_cv2 modifications](https://github.com/user-attachments/assets/c4f6cc6e-63d5-4d72-abfd-9684b7c2dab6)
 
+---
 
+I pledge my honor that I have abided by the Stevnes Honor System - _Ray Ringston_
 
