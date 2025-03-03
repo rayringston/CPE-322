@@ -34,11 +34,7 @@ I then created a new Google sheet named cpudata, including my API service accoun
 
 ![google sheet setup](https://github.com/user-attachments/assets/ac97868a-28c8-4c02-82af-34c0e4fcfdc6)
 
-Before the program can be run I first had to edit the following lines in cpu_spreadsheet.py to match my spreadsheet and API information, using ```nano cpu_spreadsheet.py```.
-
-![cpu_spreadsheet changes](https://github.com/user-attachments/assets/d890816a-6239-4288-87d5-6235783b3d1b)
-
-After running the program, using ```python3 cpu_spreadsheet.py```, the CPU utilization and available memory are logged into the Google sheet, roughly every 10 seconds.
+Before the program can be run I first had to edit the following lines in cpu_spreadsheet.py to match my spreadsheet and API information, using ```nano cpu_spreadsheet.py```. After running the program, using ```python3 cpu_spreadsheet.py```, the CPU utilization and available memory are logged into the Google sheet, roughly every 10 seconds.
 
 ![spreadsheet updated](https://github.com/user-attachments/assets/d0d69875-0575-4736-a5a7-c909e0991bb9)
 
