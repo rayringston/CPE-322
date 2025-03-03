@@ -87,3 +87,6 @@ Calculates the 10 most common words found in a text file, as well as their frequ
 
 ![documentstats.py output](https://github.com/user-attachments/assets/2575d16a-8683-497e-9a32-b0e45ae89c0e)
 
+---
+
+I pledge my honor that I have abided by the Stevnes Honor System - _Ray Ringston_
