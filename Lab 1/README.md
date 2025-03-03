@@ -24,3 +24,7 @@ gtkwave mux.vcd
 - Must install GHDL and GTKWave to generate waveforms
 - Shown terminal commands were done on the Windows Powershell
 - Source files can be found on [Professor Lu's Repository](https://github.com/kevinwlu/dsd/tree/master/ghdl)
+
+---
+
+I pledge my honor that I have abided by the Stevnes Honor System - _Ray Ringston_
