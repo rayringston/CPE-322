@@ -31,11 +31,12 @@ GitHub Repository for CPE 322\
    * Also used Pystache to create templates to parse and render input data
 7. [Lab 7 - ThingSpeak and Google Sheets](Lab%207/README.md) *(Completed 2/25/2025)*
    * Implemented ThingSpeak and Google APIs to continuously log and monitor data over the internet
-8. [Lab 8](Lab%208/README.md)
-9. [Lab 9 - YANG](Lab%209/README.md) *(Completed 3/3/2025)*
+8. [Lab 8 - Data Analysis](Lab%208/README.md) *(Completed 3/3/2025)*
+   * Analyzed system data from lab 7 using various python packages, like matplotlib, scipy, scikit-learn, etc.
+10. [Lab 9 - YANG](Lab%209/README.md) *(Completed 3/3/2025)*
    * Used Pyang to convert between .yang, .yin, and .uml data schemes
    * Used PlantUML to generate diagrams from UML files
-10. [Lab 10](Lab%2010/README.md)
+11. [Lab 10](Lab%2010/README.md)
     
 --- 
 
