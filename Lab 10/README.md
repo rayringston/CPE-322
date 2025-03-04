@@ -25,13 +25,25 @@ This approach to create a blockchain is then expanded on with the file, snakecoi
 ![full code 2/2](https://github.com/user-attachments/assets/1d852bb5-418b-486d-8435-05c45f474ca5)
 
 After running this file, I opened another terminal and used the following commands to mine a block.
-![image](https://github.com/user-attachments/assets/eab513aa-10a3-4ea7-91df-775985e78771)
+![client mining](https://github.com/user-attachments/assets/eab513aa-10a3-4ea7-91df-775985e78771)
 
 After using these curl commands, the following image shows the output on the terminal running the blockchain server. The same requests made from the client are present on the server side.
 ![server side after mine](https://github.com/user-attachments/assets/15c2527c-d418-4a30-99f4-10a4265852d0)
 
 Similarly, the transaction can also be found at 127.0.0.1:5000/mine.
 ![transaction on web side](https://github.com/user-attachments/assets/6d0ba481-4cb6-483f-9b44-5ba127120663)
+
+## Python Blockchain App
+First I cloned [Satwik Kansal's repository](https://github.com/satwikkansal/python_blockchain_app.git) using the command ```git clone https://github.com/satwikkansal/python_blockchain_app.git```. After changing into this directory I used nano to edit node_server.py by uncommenting the last line, which now specifies a port while running the server.
+
+![setup](https://github.com/user-attachments/assets/37025dac-245d-42b9-9341-3ef7c401099f)
+
+After the necessary modification was made, I ran the server on the terminal using ```python node_server.py```. Then on a separate terminal I ran run_app.py the same way. Going to 127.0.0.1:5000 shows a main page allowing user to mine blocks. After filling this form out, posting, and requesting to mine, the transaction is present at 127.0.0.1:8000/mine. Similarly, after resyncing on the main page, you can see my original request.
+
+![web side main page](https://github.com/user-attachments/assets/d6075f73-9663-407a-a9f6-c5ffe83c210b)
+
+![web side mined](https://github.com/user-attachments/assets/c5b97ddc-9bd4-4b30-ada0-bc1f2e7ea534)
+
 
 ---
 
