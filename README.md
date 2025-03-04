@@ -37,8 +37,8 @@ GitHub Repository for CPE 322\
    * Used Pyang to convert between .yang, .yin, and .uml data schemes
    * Used PlantUML to generate diagrams from UML files
 10. [Lab 10 - Blockchain](Lab%2010/README.md) *(Completed 3/3/2025)*
-   * Used Python to run a simple blockchain server, allowing user to mine through an internet connection
-   * Ran a more complicated system, that provided users a form to fill out attaching their names to their transactions
+    * Used Python to run a simple blockchain server, allowing user to mine through an internet connection
+    * Ran a more complicated system, that provided users a form to fill out attaching their names to their transactions
     
 --- 
 
