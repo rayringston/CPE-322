@@ -1,6 +1,6 @@
 # Lab 9 - YANG
 
-## Installions
+## Installations
 The required python packages for this lab were Pyang and PlantUML. Pyang is a tool for creating data schemes, which organize data into a consistent manner. Pyang also supports conversions between various data types, like .yin and .uml. PlantUML primarily handles the latter, and is used to create system diagrams from UML files. The commands below were used to install these packages.
 
 ```
