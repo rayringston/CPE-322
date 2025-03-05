@@ -1,9 +1,7 @@
 # Lab 8 - Data Analysis
 
 ## Overview
-This lab introduces various methods of data analysis 
-
-Note: get more data and update pics
+This lab introduces various methods of data analysis, using the system data obtained in lab 7. By using various python packages, like numpy, scipy, and matplotlib, these programs anaylzed the input data and visualized with numerous plots. After, the programs used the Keras package to produce a linear regression model to predict future values.
 
 ## Installations
 To install the necessary python pacakges, I used the command ```pip install -U numpy scipy scikit-learn matplotlib pandas keras```. Since tensorflow 
