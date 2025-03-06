@@ -3,8 +3,6 @@
 ## Generating API Token
 Before using the IBM Quantum Platform, I first had to a create an IBM account [here](https://quantum-computing.ibm.com/). After the account was successfully setup, I had to copy and keep track of the API key I will be using in the python programs.
 
-952cfd8dce5e408af3a280c5e3c7b046a2f5f19469cb78831f6486f6d2e2eb4a3aa264b515e62813d81492dc340e1ef8e14e9e92ff9abdb65bf22cebe63428a8
-
 ## Qiskit Installation and Setup
 Before being able to use Python to interact with IBM's Quantum Platform, there were a few necessary installations. Qiskit (Quantum Information Software KIT) is a package founded by IBM to develop program that can interact with IBM's quantum computer, or in a simulated environment. The commands I used to install these packages are shown below. 
 
