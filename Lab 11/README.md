@@ -23,7 +23,7 @@ winpty python.exe
 
 ## Qiskit Terra
 
-The first example program is qiskit_terra_example.py. This file did not initially run, and after research I found that changes have been made to the Qiskit Aer package. This package is now separate from the qiskit package, ```from qiskit import aer``` to ```from qiskit_aer import aer```. Simliarly, the execute function has been replaced with the transpile function, which works in the same manner. After using transpile, I finally had to include a line running the quantum circuit (QC) before I could produce results. Additionally, I imported matplotlib to display a drawing of the QC, which is pictured below.
+The first example program is qiskit_terra_example.py. This file did not initially run, and after research I found that changes have been made to the Qiskit Aer package. This package is now separate from the qiskit package, ```from qiskit import aer``` to ```from qiskit_aer import aer```. Simliarly, the execute function has been replaced with the transpile function, which works in the same manner. After using transpile, I finally had to include a line running the quantum circuit (QC) before I could produce results. Additionally, I imported matplotlib to display a drawing of the QC, which is pictured below. 
 
 ![drawing of quantum circuit](https://github.com/user-attachments/assets/a2a591fa-85e0-4834-9513-9930326d57ea)
 
