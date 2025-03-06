@@ -1,7 +1,5 @@
 # Lab 11 - Qiskit
 
-note: finish qiskit-aer example
-
 ## Generating API Token
 Before using the IBM Quantum Platform, I first had to a create an IBM account [here](https://quantum-computing.ibm.com/). After the account was successfully setup, I had to copy and keep track of the API key I will be using in the python programs.
 
@@ -38,3 +36,5 @@ In order to see the results of this program I used the command ```python qiskit_
 ![terra counts](https://github.com/user-attachments/assets/9818c0ba-0781-4d04-859f-28e565f3429a)
 
 The simulation evualates the QC 1024 times, keeping a count of the measured values of each qubit. Since there is randomness involved in quantum computing, each trial of program produced a different count. However, with the knowledge of how the gates work, this makes sense. Since q1 has to match q0 because they are entangled, there are no counts in the states 01 and 10, since these states would mean q0 and q1 have different values. And, since q0 initially goes through the H gate, it has an equal probability of being 0 and 1, explaining the near 50-50 split in the counts.
+
+## Qiskit Aer
