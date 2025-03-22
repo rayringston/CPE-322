@@ -36,3 +36,20 @@ In order to see the results of this program I used the command ```python qiskit_
 The simulation evualates the QC 1024 times, keeping a count of the measured values of each qubit. Since there is randomness involved in quantum computing, each trial of program produced a different count. However, with the knowledge of how the gates work, this makes sense. Since q1 has to match q0 because they are entangled, there are no counts in the states 01 and 10, since these states would mean q0 and q1 have different values. And, since q0 initially goes through the H gate, it has an equal probability of being 0 and 1, explaining the near 50-50 split in the counts.
 
 ## Qiskit Aer
+
+First I had to install a new package to use the backends to simulate a noisy, more realistic simulation. In this case we use the FakeManilla backend, which is included in the qiskit_ibm_runtime. I installed this package using ```pip install qiskit_ibm_runtime``` and included this in the Python script. I also needed to include SamplerV2, which is also in this package. Similar to the previous example, I used matplotlib to generate the image below, showing the quantum circuit.
+
+![aer quantum circuit](https://github.com/user-attachments/assets/d1eb6923-0eae-460b-8c6d-fde6515bee92)
+
+This example is very similar to the previous one, however it involves 3 qubits. The first qubit goes through an H gate, and is then entagled with the 2 other qubits. So based on this, the expected result should be an even split of "000" and "111". Before confirming this with the program, I had to fix a few more issues. I based these changes on the documentation on the [qiskit_ibm_provider package](https://docs.quantum.ibm.com/api/qiskit-ibm-runtime/fake-provider). I used this code in place of the section where the noisy simulation is run, and the results can seen below.
+
+![qiskit_aer_results](https://github.com/user-attachments/assets/f3c9fb77-a29a-4ec4-b765-b634c7be9ab7)
+As expected, the ideal counts show an approximately even split between "000" and "111". However, the results from the FakeManilla backend show counts for other results. This showcases the noise found in quantum computers. Qubits are still very unstable and prone to error, and can sometimes produce inaccurate results.
+
+# Qiskit Aqua
+
+Since 2021, the Qiskit Aqua package has been depreciated. However, all of its functions have been moved into other packages. As of now, I am still working on this example program.
+
+---
+I pledge my honor that I have abided by the Stevens Honor System - _Ray Ringston_
+
