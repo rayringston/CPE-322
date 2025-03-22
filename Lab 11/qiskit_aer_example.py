@@ -13,6 +13,8 @@ circ.h(0)
 circ.cx(0, 1)
 circ.cx(1, 2)
 circ.measure_all()
+
+# displays the qc
 circ.draw("mpl", style="iqp")
 plt.show()
 
@@ -31,11 +33,13 @@ print('Counts(ideal):', counts_ideal)
 
 backend = FakeManilaV2()
 
-# aersim_backend = AerSimulator.from_backend(backend)
 # Removed because they do not work
+# aersim_backend = AerSimulator.from_backend(backend)
 # result_noise = aersim_backend.run(circ).result()
 # counts_noise = result_noise.get_counts(0)
 
+
+# Based on the IBM documentation
 transpiled_circuit = qiskit.transpile(circ, backend)
 
 sampler = SamplerV2(backend)
