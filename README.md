@@ -39,6 +39,9 @@ GitHub Repository for CPE 322\
 10. [Lab 10 - Blockchain](Lab%2010/README.md) *(Completed 3/3/2025)*
     * Used Python to run a simple blockchain server, allowing user to mine through an internet connection
     * Ran a more complicated system, that provided users a form to fill out attaching their names to their transactions
+11. [Lab 11 - Qiskit](Lab%2011/README.md) *(Completed 3/22/2025)*
+    * Used the Qiskit library to simulate a quantum computer circuit
+    * Current programs are depreciated, and needed to be edited
     
 --- 
 
