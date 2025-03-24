@@ -41,7 +41,7 @@ GitHub Repository for CPE 322\
     * Ran a more complicated system, that provided users a form to fill out attaching their names to their transactions
 11. [Lab 11 - Qiskit](Lab%2011/README.md) *(Completed 3/22/2025)*
     * Used the Qiskit library to simulate a quantum computer circuit
-    * Current programs are depreciated, and needed to be edited
+    * Current programs are depreciated, functional versions are attached
     
 --- 
 
