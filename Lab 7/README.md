@@ -16,7 +16,8 @@ Before running the files I used ```cat thingspeak_cpu_loop.py thingspeak_feed.py
 
 To run thingspeak_feed.py I used ```python3 thingspeak_feed.py```, which outputted the measurements every 60 seconds. Note: The API Key seen in the screenshot is no longer being used, I changed it after taking this screenshot. The statistics are then displayed in the ThingSpeak channel and can be seen below.
 
-![program output](https://github.com/user-attachments/assets/3fa46adb-1e68-4a66-beb1-cb5e5fcea880)\
+![program output](https://github.com/user-attachments/assets/0f51fe8a-d88b-42cd-93da-027d1d5c157b)\
+
 ![channel stats](https://github.com/user-attachments/assets/139ca5dd-7148-43cd-9558-1bcc2cc68200)
 
 ## Google Sheets
