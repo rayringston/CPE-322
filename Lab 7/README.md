@@ -17,8 +17,8 @@ Before running the files I used ```cat thingspeak_cpu_loop.py thingspeak_feed.py
 To run thingspeak_feed.py I used ```python3 thingspeak_feed.py```, which outputted the measurements every 60 seconds. Note: The API Key seen in the screenshot is no longer being used, I changed it after taking this screenshot. The statistics are then displayed in the ThingSpeak channel and can be seen below.
 
 ![program output](https://github.com/user-attachments/assets/0f51fe8a-d88b-42cd-93da-027d1d5c157b)\
+![channel stats](https://github.com/user-attachments/assets/c80a5c20-9b61-47da-8689-5c5dba197e1a)
 
-![channel stats](https://github.com/user-attachments/assets/139ca5dd-7148-43cd-9558-1bcc2cc68200)
 
 ## Google Sheets
 First, I created a new project called cpudata on the [Google Cloud Platform IAM](https://console.cloud.google.com/projectselector2/iam-admin/iam). I enabled the Google Drive and Google Sheets API for this project. Then I create a service account key and saved the json file containing this information.
